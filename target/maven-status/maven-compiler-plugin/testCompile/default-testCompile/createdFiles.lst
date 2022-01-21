@@ -1,0 +1,12 @@
+testRunner\CucableJavaTemplate.class
+StepDefinitions\StepDefs.class
+testRunner\Default.class
+testUtilities\ConfigFileReader.class
+StepDefinitions\DealConfirmation.class
+StepDefinitions\ScenarioContext.class
+StepDefinitions\CustomerPortfolioStepDefs.class
+StepDefinitions\DealSummaryPage.class
+testUtilities\BasePage.class
+StepDefinitions\ProductSwitchStepDefs.class
+StepDefinitions\CustomerSearchStepDefs.class
+testUtilities\Hooks.class

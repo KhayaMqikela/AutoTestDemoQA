@@ -1,0 +1,398 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-21T07:31:05.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5481625300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testUtilities.Hooks.beforeAll()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Go To Forms on DemoQA",
+        "description": "",
+        "id": "demo-test-forms;go-to-forms-on-demoqa;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 937244400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testUtilities.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8720817100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1649000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I have navigated to DemoQA",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.iHaveNavigatedToDemoQA()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114781800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user clicks the Forms button",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.theUserClicksTheFormsButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65674800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the forms page is displayed",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.theFormsPageIsDisplayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 551800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76685400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user clicks the forms tab",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.theUserClicksTheFormsTab()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81825500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the practice form tab is displayed",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.thePracticeFormTabIsDisplayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 31600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 170847500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "the user clicks the practice form tab",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.theUserClicksThePracticeFormTab()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72253200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "the student registration form is displayed",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.theStudentRegistrationFormIsDisplayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 995400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2689400900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "the user enters \"Khaya\" \"Mqikela\" \"k.mqiks@gmail.com\" \"Male\" \"0402239445\" \"11 April 1991\" \"Commerce\" \"Sports\" \"4 Dexter Road\" \"NCR\" \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Khaya\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Mqikela\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"k.mqiks@gmail.com\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"0402239445\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"11 April 1991\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Commerce\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"Sports\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"4 Dexter Road\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"NCR\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"Delhi\"",
+                  "offset": 132
+                }
+              ],
+              "location": "StepDefinitions.DemoQaStepDefs.theUserEnters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101410700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "StepDefinitions.DemoQaStepDefs.clicksTheSubmitButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testUtilities.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DemoTest"
+          }
+        ]
+      }
+    ],
+    "name": "Demo Test Forms",
+    "description": "",
+    "id": "demo-test-forms",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/DemoTest.feature",
+    "tags": [
+      {
+        "name": "@DemoTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

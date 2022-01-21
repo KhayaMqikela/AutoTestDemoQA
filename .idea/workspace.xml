@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5a3dd54-2c56-4563-a897-8373d1d5f970" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_3355783540.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_3355783540.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZhawwB21RNgAJRSjOYxAhGPIBL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testUtilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Khayalethu.Mqikela\IdeaProjects\RTFESelenium\src\test\java\Features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Default (1)">
+    <configuration name="Default.scenarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.Default" />
+      <option name="METHOD_NAME" value="scenarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eqnAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testUtilities" />
+      <option name="MAIN_CLASS_NAME" value="testUtilities.MQClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.Default" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eqnAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.Default" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MQClientTest" />
+      <item itemvalue="JUnit.Default.scenarios" />
+      <item itemvalue="TestNG.Default" />
+      <item itemvalue="TestNG.Default (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Default (1)" />
+        <item itemvalue="JUnit.Default.scenarios" />
+        <item itemvalue="TestNG.Default" />
+        <item itemvalue="JUnit.MQClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5a3dd54-2c56-4563-a897-8373d1d5f970" name="Default Changelist" comment="" />
+      <created>1585294021863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585294021863</updated>
+      <workItem from="1585294026735" duration="7000" />
+      <workItem from="1585294048923" duration="118000" />
+      <workItem from="1585294178372" duration="17000" />
+      <workItem from="1585294328419" duration="341000" />
+      <workItem from="1585294737147" duration="2686000" />
+      <workItem from="1585556171997" duration="634000" />
+      <workItem from="1585556819713" duration="17000" />
+      <workItem from="1586850770895" duration="618000" />
+      <workItem from="1586853558277" duration="1540000" />
+      <workItem from="1588058206599" duration="1257000" />
+      <workItem from="1588142816892" duration="325000" />
+      <workItem from="1588165710630" duration="2260000" />
+      <workItem from="1642749463391" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1860" height="297" key="GridCell.Tab.0.bottom" timestamp="1642750260651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
+    <state width="1860" height="297" key="GridCell.Tab.0.center" timestamp="1642750260651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
+    <state width="1860" height="297" key="GridCell.Tab.0.left" timestamp="1642750260650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260650" />
+    <state width="1860" height="297" key="GridCell.Tab.0.right" timestamp="1642750260651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
+    <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1642718698943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1642718698943" />
+  </component>
+</project>
