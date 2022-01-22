@@ -42,7 +42,7 @@ public class Hooks {
             //options.addArguments("--headless");
 
 
-            driver = new ChromeDriver(options);
+            //driver = new ChromeDriver(options);
             String pathToEnv = configFileReader.getEnvironmentPath("DemoTest");
             driver.get(pathToEnv);
             driver.manage().window().maximize();
