@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3dd54-2c56-4563-a897-8373d1d5f970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_3355783540.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_3355783540.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DemoTesting.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/RTFESelenium.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/AccountDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/CustomerPortfolioStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/CustomerSearchStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DealConfirmation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DealSummaryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/ProductSwitchStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testUtilities/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testUtilities/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testUtilities/MQClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testUtilities/SimpleExcelWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testUtilities/WriteXMLFile.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +161,7 @@
       <workItem from="1588142816892" duration="325000" />
       <workItem from="1588165710630" duration="2260000" />
       <workItem from="1642749463391" duration="739000" />
-      <workItem from="1642873633623" duration="584000" />
+      <workItem from="1642873633623" duration="2548000" />
     </task>
     <servers />
   </component>
@@ -152,22 +169,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1860" height="297" key="GridCell.Tab.0.bottom" timestamp="1642750260651">
+    <state width="1860" height="297" key="GridCell.Tab.0.bottom" timestamp="1642875974058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
-    <state width="1860" height="297" key="GridCell.Tab.0.center" timestamp="1642750260651">
+    <state width="1860" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642875974058" />
+    <state width="1860" height="297" key="GridCell.Tab.0.center" timestamp="1642875974058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
-    <state width="1860" height="297" key="GridCell.Tab.0.left" timestamp="1642750260650">
+    <state width="1860" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642875974058" />
+    <state width="1860" height="297" key="GridCell.Tab.0.left" timestamp="1642875974058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260650" />
-    <state width="1860" height="297" key="GridCell.Tab.0.right" timestamp="1642750260651">
+    <state width="1860" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642875974058" />
+    <state width="1860" height="297" key="GridCell.Tab.0.right" timestamp="1642875974058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642750260651" />
+    <state width="1860" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642875974058" />
+    <state width="1860" height="319" key="GridCell.Tab.1.bottom" timestamp="1642875960667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642875960667" />
+    <state width="1860" height="319" key="GridCell.Tab.1.center" timestamp="1642875960667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642875960667" />
+    <state width="1860" height="319" key="GridCell.Tab.1.left" timestamp="1642875960667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642875960667" />
+    <state width="1860" height="319" key="GridCell.Tab.1.right" timestamp="1642875960667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642875960667" />
     <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1642718698943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

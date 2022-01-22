@@ -1,6 +1,7 @@
 package testUtilities;
 
 import io.cucumber.java.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -32,14 +33,16 @@ public class Hooks {
 
             ConfigFileReader configFileReader = new ConfigFileReader();
 
-            System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
-            //ConfigFileReader configFileReader= new ConfigFileReader();
+            //System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
 
-            ChromeOptions opt = new ChromeOptions();
-            opt.setHeadless(true);
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--headless");
 
 
-            driver = new ChromeDriver(opt);
+            driver = new ChromeDriver(options);
             String pathToEnv = configFileReader.getEnvironmentPath("DemoTest");
             driver.get(pathToEnv);
             driver.manage().window().maximize();
