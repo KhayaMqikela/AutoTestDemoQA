@@ -3,6 +3,7 @@ package testUtilities;
 import io.cucumber.java.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -33,7 +34,12 @@ public class Hooks {
 
             System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
             //ConfigFileReader configFileReader= new ConfigFileReader();
-            driver = new ChromeDriver();
+
+            ChromeOptions opt = new ChromeOptions();
+            opt.setHeadless(true);
+
+
+            driver = new ChromeDriver(opt);
             String pathToEnv = configFileReader.getEnvironmentPath("DemoTest");
             driver.get(pathToEnv);
             driver.manage().window().maximize();
