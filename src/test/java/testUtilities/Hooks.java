@@ -44,7 +44,7 @@ public class Hooks {
 
             //driver = new ChromeDriver(options);
             String pathToEnv = configFileReader.getEnvironmentPath("DemoTest");
-            driver.get(pathToEnvdgdf);
+            driver.get(pathToEnv);
             driver.manage().window().maximize();
             //driver.navigate().refresh();
 
