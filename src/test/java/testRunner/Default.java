@@ -11,7 +11,7 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(glue = "",plugin = {"pretty", "json:target/report.json", "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}, features = {"src/test/java/Features"},tags = {"@DemoTest"},strict = true)
+@CucumberOptions(glue = "",plugin = {"pretty", "json:target/report.json", "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}, features = {"src/test/java/Features"},tags = {""},strict = true)
 
 public class Default extends AbstractTestNGCucumberTests {
 

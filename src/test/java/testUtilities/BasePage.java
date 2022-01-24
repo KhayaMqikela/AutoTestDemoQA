@@ -134,6 +134,12 @@ public class BasePage extends ScenarioContext {
 
     }
 
+    public void validateText(By element,String text){
+        waitForElementToBeVisible(element);
+        Assert.assertTrue(driver.findElement(element).isDisplayed()==true);
+
+    }
+
     public void validateObjectOnFrame(By element,String frames){
         driverSwitchMethod(frames);
 
