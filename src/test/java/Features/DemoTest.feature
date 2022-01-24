@@ -38,6 +38,6 @@ Feature: Demo Test Forms
     And the user clicks "Modal Dialogs"
     Then the small modal button is displayed
     When the user clicks the small modal button
-    Then the "This is a small modalssjnsndfmnsf. It has very less content jshdjfhaduhifushfasdbjk" modal window is displayed
+    Then the "This is a small modal. It has very less content" modal window is displayed
     And the user closes the modal window
 
