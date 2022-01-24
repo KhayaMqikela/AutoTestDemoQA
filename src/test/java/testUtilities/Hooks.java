@@ -35,7 +35,7 @@ public class Hooks {
 
             //System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
 
-            //WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
 
