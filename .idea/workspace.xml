@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3dd54-2c56-4563-a897-8373d1d5f970" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/DemoTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/DemoTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/DemoQaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DemoQaStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/Default.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testUtilities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testUtilities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +142,7 @@
       <workItem from="1588165710630" duration="2260000" />
       <workItem from="1642749463391" duration="739000" />
       <workItem from="1642873633623" duration="3682000" />
-      <workItem from="1643049983258" duration="3986000" />
+      <workItem from="1643049983258" duration="4142000" />
     </task>
     <servers />
   </component>
