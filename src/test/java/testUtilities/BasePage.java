@@ -130,14 +130,42 @@ public class BasePage extends ScenarioContext {
 
     public void validateObjectOnPage(By element){
         waitForElementToBeVisible(element);
-        Assert.assertTrue(driver.findElement(element).isDisplayed()==true);
+        //Assert.assertTrue(driver.findElement(element).isDisplayed()==true);
 
+    }
+    public boolean validateObjectNotOnPage(By element){
+        return driver.findElement(element).isDisplayed();
+
+    }
+
+    public void setBalance(String balance){
+        availableBalance = balance;
+
+    }
+
+    public String getBalance(){
+        return availableBalance;
+
+    }
+
+    public boolean isElementPresent(By locatorKey) {
+        try {
+            driver.findElement(locatorKey);
+            return true;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
     }
 
     public void validateText(By element,String text){
         waitForElementToBeVisible(element);
         Assert.assertTrue(driver.findElement(element).isDisplayed()==true);
 
+    }
+
+    public String getText(By element){
+        waitForElementToBeVisible(element);
+       return driver.findElement(element).getText();
     }
 
     public void validateObjectOnFrame(By element,String frames){
@@ -158,6 +186,10 @@ public class BasePage extends ScenarioContext {
 
     public void waitForElementToBeVisible(By element){
         new WebDriverWait(driver, 20).until(ExpectedConditions.presenceOfElementLocated((element)));
+    }
+
+    public void isAlertPresent(By element){
+        new WebDriverWait(driver, 20).until(ExpectedConditions.alertIsPresent());
     }
 
 }

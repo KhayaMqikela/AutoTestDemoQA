@@ -40,7 +40,7 @@ public class ConfigFileReader {
 
         switch (environment) {
             case "DemoTest":
-                envLink = "https://demoqa.com/";
+                envLink = "https://www.demo.bnz.co.nz/client/";
                 return envLink;
         }
 

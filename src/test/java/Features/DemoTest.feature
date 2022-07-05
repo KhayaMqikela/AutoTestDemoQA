@@ -1,43 +1,91 @@
-@Forms
-Feature: Demo Test Forms
-  Scenario Outline: Go To Forms on DemoQA
-    #Given that I navigated to the RTFE "PD4" page
 
+Feature: Demo Test Online Banking
+
+    @PayeesPageValidation
+  Scenario: Navigate to Payees page using navigation menu
     Given I have navigated to DemoQA
-    When the user clicks the Forms button
-    Then the forms page is displayed
-    When the user clicks the forms tab
-    Then the practice form tab is displayed
-    When the user clicks the practice form tab
-    Then the student registration form is displayed
-    When the user enters "<first name>" "<last name>" "<email>" "<gender>" "<mobile>" "<date of birth>" "<subjects>" "<hobbies>" "<current address>" "<state>" "<city>"
-    And clicks the submit button
+    When the user clicks the Menu button
+    And the user clicks the Payees link
+    Then the Payees page is loaded
+
+  @PayeesPageAddPayee
+  Scenario Outline: Verify you can add new payee in the Payees page
+    Given I have navigated to DemoQA
+    When the user clicks the Menu button
+    And the user clicks the Payees link
+    Then the Payees page is loaded
+    When the user clicks the Add button on the payees page
+    Then the Add Payee pop up form is displayed
+    When the user enters the "<Payee Name>"
+    And the user clicks the text wrapper with text "<Payee Name>"
+    And the user enters the "<Account Bank>" "<Account Branch>" "<Account Number>" "<Account Suffix>" number
+    And the user clicks the Add button on the form
+    Then the Payee Added mesage is displayed
+    And the Payee with the name "<Payee Name>" is added in the list of payees
 
     Examples:
-      |first name   |last name |email            |gender    |mobile     |date of birth  |subjects         |hobbies |current address|state|city  |
-      |Khaya        |Mqikela   |k.mqiks@gmail.com|Male      |0402239445 |11 April 1991  |Commerce         |Sports  |4 Dexter Road  |NCR  |Delhi |
+      |Payee Name         |Account Bank  |Account Branch|Account Number|Account Suffix|
+      |Khayalethu Mqikela |01            |0001          |0000001       |001           |
 
-    @Alerts
-  Scenario: Go To Alerts
+  @PayeesPageValidateErrors
+  Scenario Outline: Verify you can add new payee in the Payees page
     Given I have navigated to DemoQA
-    When the user clicks the alerts frames windows link
-    Then the alerts frames windows page is displayed
-    When the user clicks the alerts frames windows tab
-    And the user clicks "Alerts"
-    Then the alerts click me button is displayed as one of the options
-    When the user clicks the click me button
-    Then the "You clicked a button" is displayed
-    And the user clicks OK on the alert
+    When the user clicks the Menu button
+    And the user clicks the Payees link
+    Then the Payees page is loaded
+    When the user clicks the Add button on the payees page
+    Then the Add Payee pop up form is displayed
+    When the user clicks the Add button on the form
+    Then the validation error "A problem was found. Please correct the field highlighted below." is displayed
+    When the user enters the "<Payee Name>"
+    And the user clicks the text wrapper with text "<Payee Name>"
+    And the user enters the "<Account Bank>" "<Account Branch>" "<Account Number>" "<Account Suffix>" number
+    And the user clicks the Add button on the form
+    Then the Payee Added mesage is displayed
+    And the Payee with the name "<Payee Name>" is added in the list of payees
+    Then the validation error "A problem was found. Please correct the field highlighted below." is not displayed
 
-  @ModalWindow
-  Scenario: Go To Alerts
+    Examples:
+      |Payee Name         |Account Bank  |Account Branch|Account Number|Account Suffix|
+      |Khayalethu Mqikela |01            |0001          |0000001       |001           |
+
+  @PayeesAlphabeticalOrder
+  Scenario Outline: Verify you can add new payee in the Payees page
     Given I have navigated to DemoQA
-    When the user clicks the alerts frames windows link
-    Then the alerts frames windows page is displayed
-    When the user clicks the alerts frames windows tab
-    And the user clicks "Modal Dialogs"
-    Then the small modal button is displayed
-    When the user clicks the small modal button
-    Then the "This is a small modal. It has very less content" modal window is displayed
-    And the user closes the modal window
+    When the user clicks the Menu button
+    And the user clicks the Payees link
+    Then the Payees page is loaded
+    When the user clicks the Add button on the payees page
+    Then the Add Payee pop up form is displayed
+    When the user enters the "<Payee Name>"
+    And the user clicks the text wrapper with text "<Payee Name>"
+    And the user enters the "<Account Bank>" "<Account Branch>" "<Account Number>" "<Account Suffix>" number
+    And the user clicks the Add button on the form
+    Then the Payee Added mesage is displayed
+    And the Payee with the name "<Payee Name>" is added in the list of payees
+   And the list of Payees is sorted in Ascending order
+    When the user clicks the Name header
+    And the list of Payees is sorted in Descending order
+
+    Examples:
+      |Payee Name         |Account Bank  |Account Branch|Account Number|Account Suffix|
+      |Khayalethu Mqikela |01            |0001          |0000001       |001           |
+
+  @PayTransfer
+  Scenario Outline: Verify you can add new payee in the Payees page
+    Given I have navigated to DemoQA
+    When the user clicks the Menu button
+    And the user clicks the Pay or Transfer link
+    When the user clicks on the Choose Account from list card
+    And the user selects "Everyday" from the list of accounts
+    When the user clicks on the Choose Account to card
+    And the user selects the accounts tab
+    And the user selects "Bills" from the list of accounts
+    And the user inputs "<Amount>" for amount
+    Then the user clicks the Transfer button
+    And the "<Account>" account decreases by the "<Amount>"
+
+    Examples:
+      |Amount         |Account |
+      |500            |Everyday|
 
