@@ -80,7 +80,7 @@ Feature: Demo Test Online Banking
     And the user selects "Everyday" from the list of accounts
     When the user clicks on the Choose Account to card
     And the user selects the accounts tab
-    And the user selects "Bills" from the list of accounts
+    And the user selects "Bills " from the list of accounts to pay to
     And the user inputs "<Amount>" for amount
     Then the user clicks the Transfer button
     And the "<Account>" account decreases by the "<Amount>"

@@ -14,9 +14,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.Pickle;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = "src/test/java/StepDefinitions",
+        glue = "",
         features = {"src/test/java/Features"},
-        tags = {"@ScenarioOne"},
+        tags = {"@NavigateToPaymentsPage"},
         plugin = {"json:target/cucumber-reports/CucumberTestReport.json"},
         strict = true
 )

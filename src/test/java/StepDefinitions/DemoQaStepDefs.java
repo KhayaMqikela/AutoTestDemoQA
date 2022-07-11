@@ -16,7 +16,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import testUtilities.BasePage;
 
 import java.text.DecimalFormat;
@@ -39,7 +41,7 @@ public class DemoQaStepDefs extends BasePage {
     private By PAYEE_LIST_ITEM;
     private By PAY_TRANSFER_MENU_ITEM = By.xpath("//span[text()='Pay or transfer']");
     private By CHOOSE_ACCOUNT_FROM = By.xpath("//span[text()='Choose account']");
-    private By CHOOSE_ACCOUNT_TO = By.xpath("//*[text()='Choose account, payee, or someone new']");
+    private By CHOOSE_ACCOUNT_TO = By.xpath("//span[text()='Choose account, payee, or someone new']");
     private By ACCOUNTS_TAB = By.xpath("//*[text()='Accounts']");
     private By AMOUNT_INPUT = By.xpath("//input[@name='amount']");
     private By TRANSFER_BUTTON = By.xpath("//button[@data-monitoring-label='Transfer Form Submit']");
@@ -371,26 +373,34 @@ public class DemoQaStepDefs extends BasePage {
     }
 
     @And("the user selects {string} from the list of accounts")
-    public void theUserSelectsFromTheListOfAccounts(String account) {
-        By CHOOSE_ACCOUNT = By.xpath(String.format("//p[text()='%1s']", account));
-        //P[text()='Everyday']/following-sibling::p[1]
-        By availableAmount = By.xpath(String.format("//P[text()='%1s']/following-sibling::p[1]", account));
-        String amount = getText(availableAmount);
-        int len = amount.length();
-        DecimalFormat df = new DecimalFormat("0.00");
-        Double amountSubstring = Double.parseDouble(getText(availableAmount).substring(0,len-4).replace(",",""));
-        availableBalance = df.format(amountSubstring);
+    public void theUserSelectsFromTheListOfAccounts(String account) throws InterruptedException {
+        Thread.sleep(2000);
+
+
+        By CHOOSE_ACCOUNT = By.xpath(String.format("//p[contains(text(),'Everyday')]", account));
+
         clickAnElement(CHOOSE_ACCOUNT);
+        By amountAvailable = By.xpath(String.format("//*[text()='Everyday']/following-sibling::p[1]"));
+        String amountBalanceBrforeTransfer =  getText(amountAvailable).replace(",","").replace("$","").replace(" Avl.","");
+        availableBalance = amountBalanceBrforeTransfer;
     }
 
     @When("the user clicks on the Choose Account to card")
-    public void theUserClicksOnTheChooseAccountToCard() {
+    public void theUserClicksOnTheChooseAccountToCard() throws InterruptedException {
+        Thread.sleep(1500);
+        waitForElementToBeVisible(CHOOSE_ACCOUNT_TO);
         basePageObject.clickAnElement(CHOOSE_ACCOUNT_TO);
     }
 
     @And("the user selects the accounts tab")
-    public void theUserSelectsTheAccountsTab() {
+    public void theUserSelectsTheAccountsTab() throws InterruptedException {
+        //new WebDriverWait(driver, 10).until(ExpectedConditions.invisibilityOfElementLocated(ACCOUNTS_TAB));
+        //Actions actions = new Actions(driver);
+        //actions.moveToElement(driver.findElement(ACCOUNTS_TAB)).click().build().perform();
+        //new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable((ACCOUNTS_TAB))).click();
+        Thread.sleep(1500);
         basePageObject.clickAnElement(ACCOUNTS_TAB);
+
     }
 
     @And("the user inputs {string} for amount")
@@ -407,10 +417,25 @@ public class DemoQaStepDefs extends BasePage {
     @And("the {string} account decreases by the {string}")
     public void theAccountDecreasesByThe(String account, String amount) {
 
-        By AVAILABLE_AMOUNT = By.xpath(String.format("//*[text()='%1s']/ancestor::span/following-sibling::span[2]",account));
-        String availableAmountFromAccount = getText(AVAILABLE_AMOUNT);
         DecimalFormat df = new DecimalFormat("0.00");
-        Double amountSubstring = Double.parseDouble(availableBalance)-Double.parseDouble(availableAmountFromAccount);
-        System.out.println(amountSubstring);
+        Double amountSubstring = Double.parseDouble(availableBalance)-Double.parseDouble(amount);
+        newBalance = df.format(amountSubstring);
+
+        By AVAILABLE_AMOUNT = By.xpath(String.format("//*[text()='%1s']/ancestor::span/following-sibling::span[2]",account));
+        String availableAmountFromAccount = getText(AVAILABLE_AMOUNT).replace(",","");
+        if(availableAmountFromAccount.equals(newBalance)){
+            Assert.assertEquals(newBalance, availableAmountFromAccount);
+        }
+
+    }
+
+    @And("the user selects {string} from the list of accounts to pay to")
+    public void theUserSelectsFromTheListOfAccountsToPayTo(String account) throws InterruptedException {
+        Thread.sleep(2000);
+
+
+        By CHOOSE_ACCOUNT = By.xpath(String.format("//p[contains(text(),'Bills ')]", account));
+
+        clickAnElement(CHOOSE_ACCOUNT);
     }
 }
