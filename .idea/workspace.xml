@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3dd54-2c56-4563-a897-8373d1d5f970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Default.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/DemoTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/DemoTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Default.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/DemoQaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DemoQaStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScenarioContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/CucableJavaTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/CucableJavaTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/Default.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testUtilities/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1203370869.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AutoTestDemoQA" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,7 +188,7 @@
       <workItem from="1657105578875" duration="20000" />
       <workItem from="1657115124692" duration="1210000" />
       <workItem from="1657192142113" duration="9706000" />
-      <workItem from="1657537147078" duration="11311000" />
+      <workItem from="1657537147078" duration="13621000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1657014198115</created>
@@ -205,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657014198115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Demo">
+      <created>1657564656270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657564656270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demo">
+      <created>1657564808892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657564808892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,20 +251,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1656957765190" />
-    <state x="536" y="113" key="CommitChangelistDialog2" timestamp="1657564651259">
+    <state x="536" y="113" key="CommitChangelistDialog2" timestamp="1657564805418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-3840.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1657014194048" />
-    <state x="536" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1657564651259" />
+    <state x="536" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1657564805418" />
     <state width="409" height="466" key="DebuggerActiveHint" timestamp="1656947918668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="409" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1656947918668" />
-    <state x="-1180" y="273" key="FileChooserDialogImpl" timestamp="1657105593644">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1657569427225">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1657105593644" />
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-3840.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1657018835028" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657569427225" />
     <state width="1876" height="351" key="GridCell.Tab.0.bottom" timestamp="1657564372253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="229" key="RollbackChangesDialog/0.0.1920.1040/-3840.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1657014476356" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1657564660985">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1657569866382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1657564660985" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1657569866382" />
     <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1657019001948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -339,7 +346,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/DemoQaStepDefs.java</url>
-          <line>423</line>
+          <line>247</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
