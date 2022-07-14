@@ -226,7 +226,6 @@ public class DemoQaStepDefs extends BasePage {
         basePageObject.clickAnElement(ACCOUNTS_TAB);
 
     }
-
     @And("the user inputs {string} for amount")
     public void theUserInputsForAmount(String amount) {
         basePageObject.inputValue(AMOUNT_INPUT,amount);
@@ -236,7 +235,6 @@ public class DemoQaStepDefs extends BasePage {
     public void theUserClicksTheTransferButton() {
         basePageObject.clickAnElement(TRANSFER_BUTTON);
     }
-
     @And("the {string} account decreases by the {string}")
     public void theAccountDecreasesByThe(String account, String amount) {
         DecimalFormat df = new DecimalFormat("0.00");
@@ -250,7 +248,6 @@ public class DemoQaStepDefs extends BasePage {
         }
 
     }
-
     @And("the user selects {string} from the list of accounts to pay to")
     public void theUserSelectsFromTheListOfAccountsToPayTo(String account) throws InterruptedException {
         Thread.sleep(2000);
